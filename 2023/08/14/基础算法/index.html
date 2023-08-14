@@ -22,15 +22,24 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="大学生活">
-<meta property="og:url" content="http://example.com/archives/2023/08/index.html">
+  <meta name="description" content="快速排序#include&lt;iostream&gt; using namespace std; const int N &#x3D; 1e6 + 10; int n; int q[N]; void quick_sort(int q[N], int l, int r) &amp;#123;     if (l &#x3D;&#x3D; r)return;     int x &#x3D; q[(l + r) &#x2F; 2], i &#x3D; l - 1,">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基础算法">
+<meta property="og:url" content="http://example.com/2023/08/14/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/index.html">
 <meta property="og:site_name" content="大学生活">
+<meta property="og:description" content="快速排序#include&lt;iostream&gt; using namespace std; const int N &#x3D; 1e6 + 10; int n; int q[N]; void quick_sort(int q[N], int l, int r) &amp;#123;     if (l &#x3D;&#x3D; r)return;     int x &#x3D; q[(l + r) &#x2F; 2], i &#x3D; l - 1,">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/hello-world.assets/image-20230708095834566.png">
+<meta property="og:image" content="http://example.com/hello-world.assets/image-20230708104109654.png">
+<meta property="article:published_time" content="2023-08-13T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-08-14T06:56:53.860Z">
 <meta property="article:author" content="臭臭">
+<meta property="article:tag" content="导航">
+<meta property="article:tag" content="分享">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/hello-world.assets/image-20230708095834566.png">
 
-<link rel="canonical" href="http://example.com/archives/2023/08/">
+<link rel="canonical" href="http://example.com/2023/08/14/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/">
 
 
 <script id="page-configurations">
@@ -38,12 +47,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | 大学生活</title>
+  <title>基础算法 | 大学生活</title>
   
 
 
@@ -180,56 +189,277 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/08/14/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/%E9%A6%99%E9%A6%99.png">
+      <meta itemprop="name" content="臭臭">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="大学生活">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          基础算法
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-08-14 00:00:00 / 修改时间：14:56:53" itemprop="dateCreated datePublished" datetime="2023-08-14T00:00:00+08:00">2023-08-14</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%AE%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">算法</span></a>
+                </span>
+            </span>
+
+          
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 1 篇日志。 继续努力。</span>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2023/08/14/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2023/08/14/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
+        <h2 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h2><pre><code class="c++">#include&lt;iostream&gt;
+using namespace std;
+const int N = 1e6 + 10;
+int n;
+int q[N];
+void quick_sort(int q[N], int l, int r) &#123;
+    if (l == r)return;
+    int x = q[(l + r) / 2], i = l - 1, j = r + 1;
+    while (i &lt; j) &#123;
+        do i++; while (q[i] &lt; x);
+        do j--; while (q[i] &gt; x);
+        if (i &lt; j) swap(q[i], q[j]);//swap交换
+    &#125;
+    quick_sort(q, l, j);
+    quick_sort(q, j + 1, r);
+&#125;
+int main() &#123;
+    cin &gt;&gt; n;
+    for (int i = 0; i &lt; n; i++)
+        cin &gt;&gt; q[i];
+    quick_sort(q, 0, n-1);
+    for (int j = 0; j &lt; n; j++)
+        cout &lt;&lt; q[j]&lt;&lt;endl;
+    return 0;
+
+&#125;
+</code></pre>
+<span id="more"></span>
+
+<h2 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h2><pre><code class="c++">#include&lt;iostream&gt;
+using namespace std;
+const int N = 1e6 + 10;
+int n;
+int q[N], tmp[N];
+
+void merge_sort(int q[], int l, int r) &#123;
+    if (l == r) return;
+    int mid = l + r &gt;&gt; 1;
+    merge_sort(q, l, mid), merge_sort(q, mid + 1, r);
+    int k = 0, i = l, j = mid + 1;
+    while (i &lt;=mid &amp;&amp; j &lt;= r)  //别忘记带=
+        if (q[i] &lt;= q[j])tmp[k++] = q[i++];
+        else tmp[k++] = q[j++];
+    while (i &lt;= mid)tmp[k++] = q[i++];
+    while (j &lt;= r)tmp[k++] = q[j++];
+    for (i = l, j = 0; i &lt;= r; j++, i++)q[i] = tmp[j];
+
+&#125;
+
+
+
+int main() &#123;
+    cin &gt;&gt; n;
+    for (int i = 0; i &lt; n; i++)
+        cin &gt;&gt; q[i];
+    merge_sort(q, 0, n - 1);
+    for (int j = 0; j &lt; n; j++)
+        cout &lt;&lt; q[j];
+    return 0;
+
+&#125;
+</code></pre>
+<h2 id="整数二分"><a href="#整数二分" class="headerlink" title="整数二分"></a>整数二分</h2><pre><code class="c++">//数的范围
+#include&lt;iostream&gt;
+using namespace std;
+const int N = 1e6 + 10;
+int n,m;
+int q[N];
+int main() &#123;
+    cin &gt;&gt; n &gt;&gt; m;
+    for (int i = 0; i &lt; n; i++)cin &gt;&gt; q[i];
+    while (m--) &#123;
+        int x;
+        cin &gt;&gt; x;
+        int l = 0, r = n - 1;
+        while (l &lt; r) &#123;
+            int mid = l + r &gt;&gt; 1;
+            if (q[mid] &gt;= x)r = mid;
+            else l = mid + 1;
+        &#125;
+        if (q[l] != x)cout &lt;&lt; &quot;-1 -1&quot;;
+        else &#123;
+            cout &lt;&lt; l&lt;&lt; &quot; &quot;;
+            int l = 0, r = n - 1;
+            while (l &lt; r) &#123;
+                int mid = l + r + 1 &gt;&gt; 1;//l=mid一定要写成mid=l+r+1/2一定要加一
+                if (q[mid] &lt;= x)l = mid;//l=mid r就是mid-1;r=mid l就是mid+1;
+                else r = mid - 1;
+            &#125;
+            cout &lt;&lt; l&lt;&lt;endl;
+        &#125;
+
+    &#125;
+    return 0;
+&#125;
+</code></pre>
+<h2 id="浮点数二分"><a href="#浮点数二分" class="headerlink" title="浮点数二分"></a>浮点数二分</h2><pre><code class="c++">//求平方根
+#include&lt;iostream&gt;
+using namespace std;
+int main() &#123;
+    double x;
+    cin &gt;&gt; x;
+    double l = 0, r = x;
+    while (r - l &gt; 1e-6) &#123;
+        double mid = ( l + r ) / 2;
+        if (mid * mid &gt;= x)r = mid;
+        else l = mid;
+    &#125;
+    cout &lt;&lt; l;
+    return 0;
+&#125;
+</code></pre>
+<h2 id="vector容器"><a href="#vector容器" class="headerlink" title="vector容器"></a>vector容器</h2><p><img src="/./hello-world.assets/image-20230708095834566.png" alt="image-20230708095834566"></p>
+<pre><code class="c++">vector是动态数组
+需要引入头文件#include&lt;vector&gt;
+vector&lt;数据类型&gt;名称
+vector&lt;int&gt;vec
+这行代码的意思是定义一个vec的int类型的动态数组
+
+    
+    push_back(元素)    
+    添加元素
+    比如：vector&lt;int&gt;vec;
+vec.push_back(1);目前是[1]
+vec.push_back(2);目前是[1,2]
+    
+    pop_back()
+    删除元素
+    （）里不能写东西
+    它是删除动态数组里最后一个元素
+    
+    /*数组名*/.size()
+    访问动态数组的长度
+    
+    访问某个元素跟普通的数组访问一样
+    
+    vector&lt;/*数据类型*/&gt;().swap(/*名称/*);
+    动态数组清空所有的数据且释放内存格式
+    
+    /*名称*/.empty()
+    检查动态数组大小是否为零
+    
+</code></pre>
+<p><img src="/./hello-world.assets/image-20230708104109654.png" alt="image-20230708104109654"></p>
+<h2 id="string类"><a href="#string类" class="headerlink" title="string类"></a>string类</h2><pre><code class="c++">string A;
+头文件include&lt;string&gt;
+    
+    构造函数
+    const char * str=&quot;hello,world&quot;;
+
+    string B(str);输出hello，world
+    string C(B);同上
+    string D(10,&quot;a&quot;);输出aaaaaaaaaa;
+
+    拼接字符串
+    string A=&quot;我&quot;;
+    A+=&quot;爱玩&quot;;输出：我爱玩
+        
+    string B=&quot;i love&quot;;
+    string C=&quot;game lol&quot;;
+    B.append(C,0,4);只截取game，参数0是从哪个位置开始，参数4是截取的长度
+        
+    查找
+    string A=&quot;abcde&quot;;
+    int x=A.find(&quot;de&quot;);输出x=3,没有的情况输出-1；
+    string A=&quot;abcdeabde&quot;;
+    int x=A.rfind(&quot;de&quot;);输出7，是从右向左开始查找；
+        
+    替换
+    string A=&quot;abcdefg&quot;;
+    A.replace(1,3,&quot;11111111&quot;);从1好起3个字符替换成11111111
+</code></pre>
+<pre><code>NULL代表0
+</code></pre>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-08-14T00:00:00+08:00"
-              content="2023-08-14">
-          08-14
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%AF%BC%E8%88%AA/" rel="tag"># 导航</a>
+              <a href="/tags/%E5%88%86%E4%BA%AB/" rel="tag"># 分享</a>
+          </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/08/14/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/" itemprop="url">
-            <span itemprop="name">基础算法</span>
-          </a>
-      </div>
+        
 
-    </header>
+
+        
+      </footer>
+    
   </article>
-
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -276,6 +506,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F"><span class="nav-number">1.</span> <span class="nav-text">快速排序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F"><span class="nav-number">2.</span> <span class="nav-text">归并排序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B4%E6%95%B0%E4%BA%8C%E5%88%86"><span class="nav-number">3.</span> <span class="nav-text">整数二分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%AE%E7%82%B9%E6%95%B0%E4%BA%8C%E5%88%86"><span class="nav-number">4.</span> <span class="nav-text">浮点数二分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vector%E5%AE%B9%E5%99%A8"><span class="nav-number">5.</span> <span class="nav-text">vector容器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#string%E7%B1%BB"><span class="nav-number">6.</span> <span class="nav-text">string类</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
