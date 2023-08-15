@@ -194,7 +194,7 @@ int main() &#123;
     return 0;
 &#125;
 </code></pre>
-<h2 id="vector容器"><a href="#vector容器" class="headerlink" title="vector容器"></a>vector容器</h2><p><img src="/./hello-world.assets/image-20230708095834566.png" alt="image-20230708095834566"></p>
+<h2 id="vector容器"><a href="#vector容器" class="headerlink" title="vector容器"></a>vector容器</h2><p><img src="/./%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95.assets/1.png"></p>
 <pre><code class="c++">vector是动态数组
 需要引入头文件#include&lt;vector&gt;
 vector&lt;数据类型&gt;名称
@@ -225,7 +225,7 @@ vec.push_back(2);目前是[1,2]
     检查动态数组大小是否为零
     
 </code></pre>
-<p><img src="/./hello-world.assets/image-20230708104109654.png" alt="image-20230708104109654"></p>
+<p><img src="/./%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95.assets/2.png"></p>
 <h2 id="string类"><a href="#string类" class="headerlink" title="string类"></a>string类</h2><pre><code class="c++">string A;
 头文件include&lt;string&gt;
     
