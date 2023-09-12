@@ -339,9 +339,9 @@ int main() &#123;
       </tags>
   </entry>
   <entry>
-    <title>徐志摩和三个女人</title>
-    <url>/2023/08/19/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h2><pre><code>typedef struct
+    <title>数据结构</title>
+    <url>/2023/09/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h2 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h2><pre><code>typedef struct
 &#123;
     int a;
 &#125; Per;
@@ -351,6 +351,8 @@ int main() &#123;
     int a;
 &#125;;
 </code></pre>
+<span id="more"></span>
+
 <h2 id="指针所指变量的引用"><a href="#指针所指变量的引用" class="headerlink" title="指针所指变量的引用"></a>指针所指变量的引用</h2><p>指针变量-&gt;结构变量成员名（指针变量-&gt;结构变量的域名）</p>
 <pre><code>typedef struct&#123;
     int no;
