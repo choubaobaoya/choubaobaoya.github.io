@@ -338,4 +338,49 @@ int main() &#123;
         <tag>导航</tag>
       </tags>
   </entry>
+  <entry>
+    <title>徐志摩和三个女人</title>
+    <url>/2023/08/19/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h2><pre><code>typedef struct
+&#123;
+    int a;
+&#125; Per;
+</code></pre>
+<pre><code>struct Person
+&#123;
+    int a;
+&#125;;
+</code></pre>
+<h2 id="指针所指变量的引用"><a href="#指针所指变量的引用" class="headerlink" title="指针所指变量的引用"></a>指针所指变量的引用</h2><p>指针变量-&gt;结构变量成员名（指针变量-&gt;结构变量的域名）</p>
+<pre><code>typedef struct&#123;
+    int no;
+    char title[40];
+&#125;*Book;
+Book pboo;
+pboo-&gt;no=1;
+</code></pre>
+<p><img src="/./%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.assets/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230911120426.jpg" alt="微信图片_20230911120426"></p>
+<p>一般而言，a、b、c、d、e等用作数据元素名，i、j、K、l、m、等用作整型变量名，p、q、r 等用作指针变量名；</p>
+<h2 id="内存动态分配与释放C"><a href="#内存动态分配与释放C" class="headerlink" title="内存动态分配与释放C++"></a>内存动态分配与释放C++</h2><p>分配空间 指针变量&#x3D;new 数据类型；p&#x3D;new int[10]  &#x2F;&#x2F;动态数组10个元素</p>
+<p>释放空间 delete 指针变量；</p>
+<pre><code>int*p = new int;
+//开辟一个存放整数的存储空间，返回一个指向该存储空间的地址（指针）
+int*p = new int(10);
+//开辟一个存放整数的存储空间，并指定该整数的初值为10，返回一个指向该存储空间的地址（指针）
+delete p;
+</code></pre>
+<pre><code>new运算符使用的一般格式：
+new 类型[初值]
+
+char *pt=new char[10];开辟的字符数组空间，如果把new返回的指针赋给指针变量pt，则应该用下列形式的delete运算符撤销该空间；
+    delete []pt;//指针前加中括号，释放数组
+</code></pre>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+      </tags>
+  </entry>
 </search>
